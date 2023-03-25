@@ -20,11 +20,11 @@ Download dataset from the following link (code is `xos6`):
 ## Training and Evaluating
 The pipeline for training with SSOUDA is the following:
 
-1. Train the model. For example, to run an experiment for UCM_LandUse dataset (source domain) and AID dataset (target domain),  run:
+1. Train the model. For example, to run an experiment for UCM_LandUse dataset (source domain) and NWPU-RESISC45 dataset (target domain),  run:
 
 - `python ssouda.py /your_path/SSOUDA_dataset/ -s UCMD -t NWPU -a resnet50 --epochs 60 --seed 1 --log logs/ucmd_nwpu`
 
-2. Evaluate the PCLUDA network:
+2. Evaluate the model.
 
 - `python ssouda.py /your_path/SSOUDA_dataset/ -s UCMD -t NWPU -a resnet50 --epochs 60 --seed 1 --log logs/ucmd_nwpu --phase test`
 
