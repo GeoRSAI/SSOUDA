@@ -13,7 +13,7 @@ This repository is the official implementation of [A Self-supervised-driven Open
 
 
 ## Data Preparing
-Download dataset from the following link (code is xos6):
+Download dataset from the following link (code is `xos6`):
 
 [BaiduYun](https://pan.baidu.com/s/1ACmezk5VhnpEHm3IKNQeuQ)
 
