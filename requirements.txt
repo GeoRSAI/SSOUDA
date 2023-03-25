@@ -1,0 +1,10 @@
+torch>=1.7.0
+torchvision
+numpy
+prettytable
+tqdm
+scikit-learn
+webcolors
+matplotlib
+argparse
+h5py
