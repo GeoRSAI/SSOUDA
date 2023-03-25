@@ -13,20 +13,20 @@ This repository is the official implementation of [A Self-supervised-driven Open
 
 
 ## Data Preparing
-Download dataset from the following link (code is chk8):
+Download dataset from the following link (code is xos6):
 
-[BaiduYun](https://pan.baidu.com/s/1YbsJZQEFaLyl3HRE3uBsbQ)
+[BaiduYun](https://pan.baidu.com/s/1ACmezk5VhnpEHm3IKNQeuQ)
 
 ## Training and Evaluating
 The pipeline for training with SSOUDA is the following:
 
 1. Train the model. For example, to run an experiment for UCM_LandUse dataset (source domain) and AID dataset (target domain),  run:
 
-`python ssouda.py /your_path/SSOUDA_dataset/ -s UCMD -t NWPU -a resnet50 --epochs 60 --seed 1 --log logs/ucmd_nwpu`
+- `python ssouda.py /your_path/SSOUDA_dataset/ -s UCMD -t NWPU -a resnet50 --epochs 60 --seed 1 --log logs/ucmd_nwpu`
 
 2. Evaluate the PCLUDA network:
 
-`python ssouda.py /your_path/SSOUDA_dataset/ -s UCMD -t NWPU -a resnet50 --epochs 60 --seed 1 --log logs/ucmd_nwpu --phase test`
+- `python ssouda.py /your_path/SSOUDA_dataset/ -s UCMD -t NWPU -a resnet50 --epochs 60 --seed 1 --log logs/ucmd_nwpu --phase test`
 
 ## Acknowledgment
 This code is heavily borrowed from [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library)
