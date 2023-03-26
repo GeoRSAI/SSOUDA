@@ -18,7 +18,7 @@ Download dataset from the following link (code is `xos6`):
 [BaiduYun](https://pan.baidu.com/s/1ACmezk5VhnpEHm3IKNQeuQ)
 
 ## Training and Evaluating
-The pipeline for training with SSOUDA is the following:
+The pipeline for training with SSOUDA is the following (The code is still being optimized):
 
 1. Train the model. For example, to run an experiment for UCM_LandUse dataset (source domain) and NWPU-RESISC45 dataset (target domain),  run:
 
